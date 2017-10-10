@@ -1,0 +1,22 @@
+{
+  "name": "choo-break",
+  "version": "0.0.0",
+  "description": "@jongacnik module boiler plate",
+  "main": "index.js",
+  "scripts": {
+    "test": "budo test.js"
+  },
+  "keywords": [],
+  "author": "Jon Gacnik <jon@folderstudio.com> (http://jongacnik.com)",
+  "license": "MIT",
+  "dependencies": {
+    "breakjs": "^1.0.0",
+    "nanoassert": "^1.1.0",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "budo": "^10.0.4",
+    "choo": "^6.4.1",
+    "tape": "^4.8.0"
+  }
+}
