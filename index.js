@@ -1,15 +1,14 @@
 var breakjs = require('breakjs')
-var x = require('xtend')
 
 module.exports = plugin
 
 function plugin (breakpoints, render) {
-  breakpoints = x({
+  breakpoints = breakpoints || {
     xs: 0,
     sm: 768,
     md: 1024,
     lg: 1280
-  }, breakpoints)
+  }
 
   render = render === undefined
     ? true

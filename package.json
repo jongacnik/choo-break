@@ -11,8 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "breakjs": "^1.0.0",
-    "nanoassert": "^1.1.0",
-    "xtend": "^4.0.1"
+    "nanoassert": "^1.1.0"
   },
   "devDependencies": {
     "budo": "^10.0.4",
